@@ -37,12 +37,12 @@
 }
 .nav-links{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.84rem;
     font-weight: 500;
     color: rgba(66, 66, 66, 1);
 }
 .Brand-logo{
-    font-size: 2.5rem;
+    font-size: 2.10rem;
     font-weight: 700;
     color: rgba(19, 19, 19, 1);
 }
@@ -57,20 +57,20 @@
 
 }
 .banner-title{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     color: rgba(19, 19, 19, 1);
     margin-bottom: 1.5rem;
 }
 
 .banner-description{
-    font-size: 1rem ;
+    font-size: 0.75rem ;
     font-weight: 400;
     color: rgba(114, 114, 114, 1);
     margin-bottom: 2rem;
 }
 .btn-primary{
-    font-size: 1.25rem;
+    font-size: 0.93rem;
     font-weight: 600;
     color: white;
     background-color: #FF900E;
@@ -101,11 +101,15 @@ main{
     gap: 4rem;
 
 }
+.team-content{
+    width: 25.17rem;
+}
 .team-content > p{
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 400;
     color: rgba(114, 114, 114, 1);
     margin: 24px 0 32px 0;
+    text-align: justify;
 }
 .team-img{
   
@@ -124,7 +128,7 @@ main{
 }
 
 .feature{
-    font-size: 2.81rem ;
+    font-size: 2.10rem ;
 }
 .Quick{
     color: rgba(114, 114, 114, 1);
@@ -134,4 +138,50 @@ main{
 }
 .feat{
     color: #FF900E;
+}
+
+/* feature section style */
+.fect-title{
+    margin-top: 130px;
+    font-size: 2.10rem;
+    font-weight: 700;
+    color: rgba(19, 19, 19, 1);
+}
+.fect-description{
+    width: 25.17rem;
+    margin-top: 24px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+
+.fect-card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4.68rem;
+}
+.fect-card{
+    width: 180px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fect-card > div{
+    padding: 40px;
+}
+.fect-number{
+    font-size: 2.10rem;
+    font-weight: 600;
+    color: rgba(19, 19, 19, 1);
+    margin-top: 10px;
+}
+.fect-paragraph{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 5px;
 }

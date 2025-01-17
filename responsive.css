@@ -20,9 +20,17 @@
     .team-img{
         grid-template-columns: repeat(1, 1fr);
     }
-    .team-content{
+    .team-content, 
+    .fect-div{
         text-align: center;
+        padding: 5px;
     }
+   
+    .fect-card-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .navber{
