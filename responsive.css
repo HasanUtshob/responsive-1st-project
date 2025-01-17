@@ -1,0 +1,35 @@
+@media screen and (max-width:576px){
+    .navber{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .Brand-logo{
+        margin-bottom: 2rem;
+    }
+    .banner-content{
+        padding: 5px;
+    }
+    .hero-banner{
+        margin: 0 30px;
+
+    }
+    .team-section{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-content{
+        text-align: center;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navber{
+        justify-content: space-around;
+    }
+    .hero-banner{
+        margin: 0 8rem;
+
+    }
+}
